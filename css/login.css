@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap");
+
+
+body {
+  font-family: var(--font-family-primary);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #fff2d1;
+}
+
+
+img:not(header h1 a img) {
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Esqueci a Senha */
+
+body{
+  height: 100vh;
+  width: 100%;
+
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.container-login{
+  width: 63vw;;
+  height: 78vh;
+  display: flex;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  font-size: clamp(1.3rem, 2vw, 1.5rem);
+
+}
+.form-login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 0px 10px 10px 0;
+  width: 49%;
+}
+.form-login form{
+  width: 85%;
+  margin-left:-30px;
+
+}
+
+
+.form-login input{
+  box-shadow: 2px 3px 4px rgba(100, 100, 100, 0.212);
+  height: 36px;
+  width: 100%;
+  padding: 10px; /* Adicione padding conforme necessário para o espaçamento interno */
+  box-sizing: border-box; /* Garante que o padding não afete a largura total */
+  background-color: #fff; /* Define o fundo como branco */
+  border: 1px solid #ccc; /* Adiciona uma borda para melhorar a aparência (opcional) */
+  border-radius: 5px;
+  margin-bottom: 14px;
+}
+
+.form-header{
+  color: #10214b;
+  font-family: var(--font-family-primary);
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+/* .form-header h2{
+  font-size: 23px;
+} */
+
+.btn-login{
+  padding: 8px 38px 8px 38px;
+  border: none;
+  color: var(--quaternary-color);
+  border-radius: 5px;
+  background: rgb(248, 164, 39);
+  text-align: center;
+  margin-top: 10px;
+}
+.btn-login a{
+    text-decoration: none;
+    color: #fff;
+}
+.form-img-login{
+  background-color: #F9A248;
+  max-width: 51%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  background-color: #67b0cf;
+}
+
+@media screen and (max-width: 1173px) {
+
+/* Esqueceu senha */
+  .form-img-login{
+    display: none;
+  }
+  .container-login{
+    max-width: 40vw;
+    max-height: 65vh;
+  }
+  .form-login{
+    width: 100%;
+    border-radius: 10px;
+  }
+  .button-esqueci-senha{
+    background-color: #152A5C;
+  }
+
+  .container-login form{
+    width: 91%;
+    margin: auto;
+  }
+
+  .container-login{
+    max-width: 50vw;
+    margin-top: -80px;
+  }
+  
+}
+
+
+@media screen and (max-width: 800px) {
+    /* Esqueceu senha */
+    .form-login{
+      padding: 1rem;
+    }
+    .container-login{
+      width: 100%;
+    }
+    .menu{
+      display: block;
+    }
+    .menu a:hover{
+      background-color: rgba(255, 200, 127, 0.021);
+  }
+
+
+  }
+
+
+@media screen and (max-width: 749px) {
+  /*  */
+  .container-login{
+    max-width: 62vw;
+  }
+}
+
+
+@media screen and (max-width: 585px) {
+  html {
+    font-size: 59%;
+  }
+  .container-login{
+    max-width: 78vw;
+  }
+  
+}
+
+
+@media screen and (max-width: 388px) {
+  .info-num-adress div:nth-child(1) {
+    display: none;
+  }
+
+  header {
+    background-color: var(--primary-color);
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    padding: 25px 0;
+  }
+  
+  .info-bg {
+    position: unset;
+    top: unset;
+  }
+
+  header h1 a img {
+    max-width: 100%;
+    min-width: 150px;
+  }
+}

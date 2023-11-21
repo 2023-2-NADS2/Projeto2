@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<header class="info-bg">
+  <div class="limitador">
+    <h1>
+      <a id="logo-menu" href="index.html"><img src="img/logo-menu.png" alt="Logo" /></a>
+    </h1>
+    <nav>
+      <ul class="menu" id="menu-restrito">
+        <li>
+          <a href="index.html">Voltar para Home <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+              viewBox="0 0 24 24" fill="none" stroke="#fcf6ec" stroke-width="3" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M5 12h13M12 5l7 7-7 7" />
+            </svg></a>
+
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<body>
+  <main>
+    <div class="container-login">
+      <div class="form-img-login">
+        <img src="img/login-img.png" alt="">
+      </div>
+
+      <div class="form-login">
+        <form method="post" class="row g-3" id="loginForm">
+          <div class="form-header">
+            <h2>Faça seu login</h2>
+            <p>Está area é apenas para administradores</p>
+          </div>
+          <div>
+            <input type="email" placeholder="E-mail" name="email" id="email">
+            <input type="password" placeholder="Senha" name="password" id="password">
+            <button id="mn" class="btn-form" type="submit"> Enviar </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="js/formController.js"></script>
+
+</body>
+
+</html>

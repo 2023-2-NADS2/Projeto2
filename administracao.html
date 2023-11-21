@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Area Administrativa - Todos Por Eles</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="shortcut icon" href="img/fav-icon-pet.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="css/administracao.css" />
+</head>
+
+<body>
+  <header class="info-bg">
+    <div class="limitador">
+      <h1>
+        <a id="logo-menu" href="index.html"><img src="img/logo-menu.png" alt="Logo" /></a>
+      </h1>
+      <nav>
+        <ul class="menu" id="menu-restrito">
+          <li>
+            <a href="index.html">Voltar para Home <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                viewBox="0 0 24 24" fill="none" stroke="#fcf6ec" stroke-width="3" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M5 12h13M12 5l7 7-7 7" />
+              </svg></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h2>Adicione os dados do pet que deseja inserir</h2>
+    <div class="assunto">
+      <form method="post" enctype="multipart/form-data">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="tipoAnimal">Tipo de animal:</label>
+        <select id="tipoAnimal" name="tipoAnimal" required>
+          <option value=""></option>
+          <option value="Gato">Gato</option>
+          <option value="Cachorro">Cachorro</option>
+          <option value="Outro">Outro</option>
+        </select>
+
+        <label for="genero">Gênero:</label>
+        <select id="genero" name="genero" required>
+          <option value=""></option>
+          <option value="Fêmea">Fêmea</option>
+          <option value="Macho">Macho</option>
+        </select>
+
+        <label for="dataNascimento">Data de Nascimento:</label>
+        <input type="date" id="dataNascimento" name="dataNascimento">
+
+        <label for="imagem">Imagem:</label>
+        <input type="file" id="imagem" name="imagem" accept="image/*">
+
+        <label for="castrado">Castrado:</label>
+        <select id="castrado" name="castrado" required>
+          <option value=""></option>
+          <option value="Castrado">Castrado</option>
+          <option value="Não Castrado">Não Castrado</option>
+        </select>
+
+        <label for="descricao">Descrição:</label>
+        <textarea id="descricao" name="descricao" rows="4" required></textarea>
+
+        <button class="btn-form" type="submit">Enviar</button>
+      </form>
+      <div id="btnInstagram">
+        <a target="_blank/" href="https://www.instagram.com/todosporeles_/"><img src="img/icon-instagram-fixo.png"
+            alt=""></a>
+      </div>
+      <!-- <fieldset>
+            <input placeholder="+55 | DD + Telefone" type="tel" tabindex="3" required>
+            </fieldset> -->
+
+    </div>
+    <div id="btnInstagram">
+      <a target="_blank/" href="https://www.instagram.com/todosporeles_/"><img src="img/icon-instagram-fixo.png"
+          alt=""></a>
+    </div>
+  </main>
+  <img src="img/footer-decoracaoo.png" alt="" class="dec">
+  <footer>
+    <div class="container-footer-rotas">
+      <div class="logo-footer">
+        <img src="img/todos-por-eles.png" alt="">
+        <p>ONG de ajuda a animais, buscamos melhorar a vida desses anjinhos</p>
+      </div>
+      <div class="footer-atendimento">
+        <h3>Atendimento</h3>
+        <ul>
+          <li><a href="sobre-nos.html">(11) 93316-8183</a></li>
+          <li><a href="sobre-nos.html">todosporeles0@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-plataforma">
+        <h3>Plataforma</h3>
+        <ul>
+          <li><a href="#">Termos de Uso</a></li>
+          <li><a href="#">Principios da LGPD</a></li>
+          <li><a href="#">Política de privacodade</a></li>
+        </ul>
+      </div>
+      <div class="footer-mapa">
+        <h3>Acesso Rápido</h3>
+        <ul>
+          <li><a href="adocao.html">Adote</a></li>
+          <li><a href="#">Como Ajudar</a></li>
+          <li><a href="sobre-nos.html">Contatos</a></li>
+          <li><a href="sobre-nos.html#quem-somos.html">Sobre Nos</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="sub-footer">
+      <div class="redes-sociais">
+        <a href="#" class="icon-instagram"><img src="img/patinha.png" alt=""></a>
+        <a href="#" class="icon-facebook"><img src="img/patinha.png" alt=""></i></a><a href="#">
+          <a href="#" class="icon-git"><img src="img/patinha.png" alt=""></a>
+      </div>
+      <p class="copyright">Company Name © 2023</p>
+    </div>
+  </footer>
+  <script src="js/toggle-switch.js"></script>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <script src="js/inserirCachorro.js"></script>
+</body>
+
+</html>
