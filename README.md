@@ -36,6 +36,8 @@ Encontre o index.html na pasta executáveis e execute-o como uma página WEB (at
 Descreva como instalar todas as dependências para desenvolvimento e como rodar.
 
 ```sh
+cd src
+cd front-end
 cd backend
 npm install
 node .\apiLogin
