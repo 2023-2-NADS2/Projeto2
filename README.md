@@ -15,7 +15,7 @@
  ## Descrição
 
 <p align="center">
-<img src="https://github.com/2023-2-NADS2/Projeto2/blob/main/img/logo-sobre-nos.png" border="0" width="300"> <br>
+<img src="https://github.com/2023-2-NADS2/Projeto2/blob/main/imagens/logo-sobre-nos.png" border="0" width="300"> <br>
   Projeto Interdisciplinar Web  <a href="/">
 </p>
 
