@@ -66,35 +66,38 @@ Coloque código do prompt de comnando se for necessário
 
 #### Versão 0.3.0 - 20/11/2023
 
-MUDANÇA: Criado README.md para documentação
-MUDANÇA: Atualizado apiCachorro.js com correção no botão
+- **MUDANÇA:** Criado README.md para documentação
+- **MUDANÇA:** Atualizado apiCachorro.js com correção no botão
+
 #### Versão 0.2.1 - 17/11/2023
 
-MUDANÇA: Atualização de como-ajudar.css
-ADD: Adição de javascript para o Pix
-ADD: Adição de lightbox com conteúdo
-MUDANÇA: Fonte responsiva em como-ajudar.css
-ADD: Pix adicionado na página como ajudar
-ADD: Página como ajudar criada
-Versão 0.2.0 - 15/11/2023
+- **MUDANÇA:** Atualização de como-ajudar.css
+- **ADD:** Adição de javascript para o Pix
+- **ADD:** Adição de lightbox com conteúdo
+- **MUDANÇA:** Fonte responsiva em como-ajudar.css
+- **ADD:** Pix adicionado na página como ajudar
+- **ADD:** Página como ajudar criada
 
-#### Commits na semana de 10 a 20 de Novembro de 2023:
+#### Versão 0.2.0 - 15/11/2023
 
-15.Atualização do README.md
-14.Correção no apiCachorro.js
-13.Botão arrumado em login.css
-12.Adição de javascript para Pix
-11.Lightbox com conteúdo
-10.Fonte responsiva em como-ajudar.css
-9.Pix adicionado na página como ajudar
-8.Criação da página como ajudar
-7.Remoção de destaque e arrumação de ícones de redes sociais
-6.Atualização em home.css
-5.Simulação de <picture> para o logo
-4.Botão arrumado no login
-3.Criação da área de login
-2.Arrumação do footer
-1.Alteração na cor do botão dos formulários
+
+### Commits na semana de 10 a 20 de Novembro de 2023:
+
+1. **Alteração na cor do botão dos formulários**
+2. **Arrumação do footer**
+3. **Criação da área de login**
+4. **Botão arrumado no login**
+5. **Simulação de `<picture>` para o logo**
+6. **Atualização em home.css**
+7. **Remoção de destaque e arrumação de ícones de redes sociais**
+8. **Criação da página como ajudar**
+9. **Pix adicionado na página como ajudar**
+10. **Fonte responsiva em como-ajudar.css**
+11. **Lightbox com conteúdo**
+12. **Adição de javascript para Pix**
+13. **Botão arrumado em login.css**
+14. **Correção no apiCachorro.js**
+15. **Atualização do README.md**
 
 ## 📋 Licença/License
 
