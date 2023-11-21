@@ -11,7 +11,14 @@
 ## Professores Orientadores: 
  <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Felix Valente</a> <br>
  <a href="https://www.linkedin.com/in/francisco-escobar/">Francisco Escobar</a> <br>
- 
+
+ ## Descrição
+
+<p align="center">
+<img src="https://github.com/2023-2-NADS2/Projeto2/blob/main/img/logo-sobre-nos.png" border="0" width="300"> <br>
+  Projeto Interdisciplinar Web  <a href="/">
+</p>
+   
 ## Descrição
 
 
