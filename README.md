@@ -18,8 +18,6 @@
 <img src="https://github.com/2023-2-NADS2/Projeto2/blob/main/img/logo-sobre-nos.png" border="0" width="300"> <br>
   Projeto Interdisciplinar Web  <a href="/">
 </p>
-   
-## Descrição
 
 
 Fundada em 2016, a ONG "Todos Por Eles" é uma organização sem fins lucrativos localizada na cidade de Ferraz de Vasconcelos, no estado de São Paulo, Brasil. Nossa história começa com um grupo de moradores locais apaixonados por animais, preocupados com o crescente número de animais abandonados e maltratados em nossa comunidade. Testemunhar os animais enfrentando as ruas nos motivou a agir.
@@ -28,24 +26,6 @@ Fundada em 2016, a ONG "Todos Por Eles" é uma organização sem fins lucrativos
 
 ## 🛠 Instalação
 
-<b>Android:</b>
-
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>Windows:</b>
-
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
 <b>HTML:</b>
 
 Não há instalação!
@@ -53,16 +33,12 @@ Encontre o index.html na pasta executáveis e execute-o como uma página WEB (at
 
 ## 💻 Configuração para Desenvolvimento
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
-Para abrir este projeto você necessita das seguintes ferramentas:
-
--<a href="https://godotengine.org/download">GODOT</a>
+Descreva como instalar todas as dependências para desenvolvimento e como rodar.
 
 ```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
+cd backend
+npm install
+node .\apiLogin
 ```
 
 ## 🗃 Histórico de lançamentos
